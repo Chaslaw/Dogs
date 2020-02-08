@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bones.jpg);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: aquamarine;
+}
+
+select {
+    width: 30%;
+    height: 34px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 22px;
+    color: #644f6b;
+    border-radius: 10px;
+}
+
+header {
+    width: 100%;
+    background-color:#644f6b;
+    height: 200px;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1420px;
+    margin: 0 auto;
+   align-items: center;
+   height: 200px;
+}
+
+.dogs-first {
+    display: flex;
+   width: 1200px;
+   justify-content: space-between;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.main-screen {
+display: inline-block;
+background-color: #644f6b;
+border: 5px solid bisque;
+border-radius: 10px;
+margin-left: 36%;
+padding: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color:#644f6b;
+    height: 50px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    color: #644f6b;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
